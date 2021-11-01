@@ -1,0 +1,211 @@
+@font-face{
+	font-family: "Gilroy";
+	font-style:normal;
+}
+
+body{
+    margin:0;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color:  #676767;
+    background-color: #F6F6F6;
+};
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+.container{
+position:absolute;
+left: 215px;
+top: 325px;
+text-align: center;
+}
+.container span{
+display: block;
+}
+.text__1{
+position: relative;
+font-size: 100px;
+line-height: 120px;
+font-weight: 400;
+letter-spacing: 4px;
+margin-bottom: 20px;
+background: #F6F6F6;
+animation:t 5s 1;
+animation-iteration-count:infinite;
+}
+.text__2{
+color:#FCA598;
+font-size: 70px;
+line-height: 84px;
+letter-spacing: 4px;
+font-weight: 400;
+}
+@keyframes t{
+  0%{
+    color:#F6F6F6;
+    margin-bottom: -90px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -90px;
+  }
+  85%{
+    letter-spacing: 4px;
+    margin-bottom: -90px;
+  }
+
+}
+.pic__1{
+position: absolute;
+width: 410px;
+height: 596px;
+left: 972px;
+top: 129px;
+}
+.Component__1{
+position: relative;
+width: 427px;
+height: 525px;
+left:928px;
+top:247px;
+}
+.Ellipse__1{
+position: absolute;
+left: 0;
+top: 725px;
+}
+.pic__2{
+position: absolute;
+left: 117px;
+top: 854px;
+}
+.text__3{
+position: absolute;
+width: 358px;
+height: 84px;
+left: 928px;
+top: 838px;
+font-size: 70px;
+line-height: 84px;
+color: #FCA598;
+letter-spacing: 4px;
+animation:t 5s 1;
+animation-iteration-count:infinite;
+}
+.text__4{
+position: absolute;
+width: 634px;
+height: 236px;
+left: 842px;
+top: 1013px;
+font-weight: 500;
+font-size: 35px;
+line-height: 140.5%;
+}
+.Component__2{
+position: absolute;
+left: 114px;
+top: 1570px;
+}
+.Component__3{
+position: absolute;
+left: 114px;
+top: 2298px;
+}
+.text__5{
+position: absolute;
+width: 617px;
+height: 388px;
+left: 870px;
+top: 2280px;
+font-weight: 500;
+font-size: 35px;
+line-height: 140.5%;
+}
+.text__6{
+position: absolute;
+left: 844px;
+top: 2795px;
+font-size: 70px;
+line-height: 84px;
+animation-name: Appearance;
+animation-duration: 5s;
+animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+Animation-iteration-count: infinite
+;
+
+}
+.Component__4{
+position: absolute;
+width:100%;
+top: 3156px;
+right: 10px;
+}
+.text__7{
+ position: absolute;
+width: 829px;
+height: 191px;
+left: 425px;
+top: 3931px;
+font-weight: 500;
+font-size: 35px;
+line-height: 140.5%;
+text-align: center;
+}
+.line{
+position: absolute;
+width: 1600px;
+height: 0px;
+left: 0px;
+top: 4190px;
+}
+.contacts{
+position: absolute;
+width: 197px;
+height: 61px;
+left: 722px;
+top: 4245px;
+font-weight: 500;
+font-size: 35px;
+line-height: 140.5%;
+text-align: center;
+padding-bottom: 55px;
+}
+a{
+ color: #676767;
+ text-decoration: none;
+}
+a:hover{
+  color:#FCA598;
+  text-decoration: underline;
+}
+@-webkit-keyframes Appearance {
+  0% {opacity: 0;}
+  30%{opacity: 0,5}
+  60%{opacity: 1}
+  100% {opacity: 0;}
+}
+
+@-o-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes Appearance {
+  0% {opacity: 0;}
+  60% {opacity: 1;}
+  100% {opacity: 0;}
+
+}
